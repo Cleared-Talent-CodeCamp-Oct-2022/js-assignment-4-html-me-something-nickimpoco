@@ -73,7 +73,7 @@ nav img{
     
 }
 
-.gotopbtn{
+.to-top{
     background: lightgray;
     position: fixed;
     bottom: 16px;
@@ -86,7 +86,15 @@ nav img{
     justify-content: center;
     font-size: 32px;
     color: black;
-    text-decoration: 0;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+}
+.to-top.active{
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
 }
 
 /*----- Getting Started -----*/
