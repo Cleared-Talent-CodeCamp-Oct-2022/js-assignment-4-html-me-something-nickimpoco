@@ -159,13 +159,13 @@ nav img {
 }
 
 .img-study {
-    float: left;
-    margin-left: 500px;
+    position: relative;
+    right: 300px;
 }
 
 .img-study2 {
-    float: right;
-    margin-right: 500px;
+    position: relative;
+    left: 300px
 }
 
 

@@ -1,4 +1,5 @@
 const toTop = document.querySelector(".to-top");
+const redirectNavLogo = document.getElementById("navRedir");
 
 window.addEventListener("scroll", () => {
     if (window.pageYOffset > 100) {
@@ -8,12 +9,7 @@ window.addEventListener("scroll", () => {
     }
 })
 
-const redirectNavLogo = document.getElementById("redirectNavExampleID");
 redirectNavLogo.addEventListener("click", function(){
-     let response = window.confirm("Are you sure you want to be redirected away from this page?");
-     if (response) {
-          
-     } else{
-
-     }
+     let response = window.confirm("This will open a new tab and send you to the author's LinkedIn page. Do you want to continue?");
+     if (response);       
 })
