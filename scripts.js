@@ -11,5 +11,7 @@ window.addEventListener("scroll", () => {
 
 redirectNavLogo.addEventListener("click", function(){
      let response = window.confirm("This will open a new tab and send you to the author's LinkedIn page. Do you want to continue?");
-     if (response);       
+     if (response===true){
+        window.open("https://www.linkedin.com/in/nicholas-impoco/");
+     }       
 })
