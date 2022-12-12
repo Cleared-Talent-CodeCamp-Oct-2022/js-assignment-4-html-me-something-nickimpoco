@@ -13,10 +13,6 @@ body {
     display: block;
 }
 
-#mainHeader {
-    color: red;
-}
-
 .header {
     min-height: 100vh;
     width: 100%;
@@ -26,9 +22,12 @@ body {
     background-size: cover;
     position: relative;
 }
-.header p2 {
-    color: green;
+.header p2 {    
     text-emphasis: 600;
+}
+.header p3 {
+    color: green;
+    text-emphasis: 600;    
 }
 
 
@@ -120,7 +119,7 @@ nav img {
 }
 
 .START{
-    background-image: linear-gradient(rgba(5, 10, 29, 0.9), rgba(4, 9, 28, 0.8)), url(../images/Image5.jpg);
+    background-image: linear-gradient(rgba(5, 10, 29, 0.95), rgba(4, 9, 28, 0.8)), url(../images/Image5.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -128,7 +127,7 @@ nav img {
 }
 
 .START h1 {
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 600;
     font-family: 'Martian Mono', monospace;
 }
@@ -170,7 +169,8 @@ nav img {
     width: 92%;
     margin: auto;
     text-align: center;
-    padding-top: 120px;    
+    padding-top: 250px;
+    padding-bottom: 150px;    
     background-image: linear-gradient(rgba(4, 9, 28, 0.5), rgba(5, 9, 29, 0.6)), url(../images/Image10.jpeg);
     background-repeat: no-repeat;
     background-size: auto;
@@ -179,7 +179,7 @@ nav img {
 
 .INVESTMENT h1 {
     font-size: 70px;
-    font-weight: 600;
+    font-weight: 800;
     position: relative;
     bottom: 100px;
     color:aliceblue;    
@@ -218,6 +218,128 @@ nav img {
 }
 
 
+/*----- Handle -----*/
+
+.HANDLE{
+    width: 92%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    padding-top: 250px;
+    padding-bottom: 450px;
+    background-image: linear-gradient(rgba(4, 9, 28, 0.9), rgba(5, 9, 29, 0.9)),url(../images/background8.jpeg);
+}
+
+.HANDLE h1 {
+    font-size: 70px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 50px;
+    color:aliceblue;    
+    font-family: 'Martian Mono', monospace;
+    background-image: url(../images/background4.jpeg);    
+    background-size: auto;
+}
+
+.HANDLE h2{
+    font-size:40px;
+    font-weight:600;
+    position:relative;
+    top: 180px;
+    color:ivory;
+    background-image: linear-gradient(rgba(4, 9, 28, 0.85), rgba(5, 9, 29, 0.85)),url(../images/background7.png);
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#handle1{
+    position: relative;
+    right:280px;
+    width:400px;
+    height:300px;
+    top:100px;
+    opacity: 0.9;
+}
+#handle2{
+    position: relative;
+    right:115px;
+    width:400px;
+    height:300px;
+    top:100px;
+    opacity: 0.9;    
+}
+#handle3{
+    position: relative;
+    left:115px;
+    width:400px;
+    height:300px;
+    top: 100px;
+    opacity: 0.9;    
+}
+#handle4{
+    position: relative;
+    left:280px;
+    width:400px;
+    height:300px;
+    top:100px;
+    opacity:0.9;    
+}
+
+#handle5{
+    position: relative;
+    right:280px;
+    width:400px;
+    height:300px;
+    top:250px;
+    opacity: 0.9;
+}
+#handle6{
+    position: relative;
+    right:115px;
+    width:400px;
+    height:300px;
+    top:250px;
+    opacity: 0.9;    
+}
+#handle7{
+    position: relative;
+    left:115px;
+    width:400px;
+    height:300px;
+    top:250px;
+    opacity: 0.9;    
+}
+#handle8{
+    position: relative;
+    left:280px;
+    width:400px;
+    height:300px;
+    top:250px;
+    opacity:0.9;    
+}
+
+#mainHeader{
+    position: relative;
+    font-size: 50px;
+    top:350px;
+    font-weight: 1000;    
+    color: red;
+    background-image: url(../images/background4.jpeg);    
+    background-size: auto;    
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#fantastic{
+    position: relative;
+    font-size: 25px;
+    top:420px;
+    color:aliceblue;
+}
+
 /*----- Execution -----*/
 
 .EXECUTION{
@@ -226,9 +348,63 @@ nav img {
     text-align: center;
     color: black;
     padding-top: 250px;
-    background-color: lightblue;  
+    padding-bottom: 450px;
+    background-image: linear-gradient(rgba(4, 9, 28, 0.6), rgba(5, 9, 29, 0.7)),url(../images/background9.jpeg);
 }
-
+.EXECUTION h1{
+    font-size: 70px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 50px;
+    color: rgb(216, 65, 65);   
+    font-family: 'Martian Mono', monospace;
+    background-image: linear-gradient(rgba(4, 9, 28, 0.9), rgba(5, 9, 29, 0.7)),url(../images/background12.jpeg);    
+    
+}
+#guillotine{
+    font-size:30px;
+    font-weight:600;
+    position:relative;    
+    color:ivory;
+}
+#fgsHard{
+    position:relative;
+    width: 800px;
+    height:425px; 
+    padding-top: 50px;   
+}
+.exec-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    color:ivory;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.EXECUTION h2{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    top:100px;    
+    color: rgb(216, 65, 65);   
+    font-family: 'Martian Mono', monospace;
+    background-image: linear-gradient(rgba(4, 9, 28, 0.9), rgba(5, 9, 29, 0.7)),url(../images/background12.jpeg);    
+    
+}
+#starter{
+    position:relative;
+    left:150px;
+    font-size: 25px;
+}
+#moveList{
+    position:relative;
+    right:300px;
+    width:800px;
+}
 
 
 
