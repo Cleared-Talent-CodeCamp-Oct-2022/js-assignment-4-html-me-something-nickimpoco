@@ -28,9 +28,8 @@ body {
   text-emphasis: 600;
 }
 
-.header p3 {
-  color: green;
-  text-emphasis: 600;
+.funParagraph {
+  color: green;  
 }
 
 .text-box {
@@ -339,7 +338,7 @@ nav img {
   opacity: 0.9;
 }
 
-#mainHeader {
+#mainHeading {
   position: relative;
   font-size: 50px;
   top: 350px;
