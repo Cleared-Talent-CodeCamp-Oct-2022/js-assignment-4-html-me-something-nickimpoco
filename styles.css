@@ -29,7 +29,7 @@ body {
 }
 
 .funParagraph {
-  color: green;  
+  color: green;
 }
 
 .text-box {
@@ -198,7 +198,7 @@ nav img {
   margin-top: 5%;
   display: flex;
   justify-content: space-evenly;
-  color: aqua;    
+  color: aqua;
 }
 
 .img-study {
@@ -448,10 +448,10 @@ nav img {
   font-size: 20px;
 }
 #starter {
-    position: relative;
-    right: 10%;
-    font-size: 25px;
-  }
+  position: relative;
+  right: 10%;
+  font-size: 25px;
+}
 
 #moveList {
   position: relative;
@@ -589,12 +589,9 @@ nav img {
   text-align: center;
   padding-bottom: 250px;
   color: aliceblue;
-  background-image: linear-gradient(
-      rgba(1, 1, 1, 1),
-      rgba(1, 1, 1, 1)
-    ),
+  background-image: linear-gradient(rgba(1, 1, 1, 1), rgba(1, 1, 1, 1)),
     url(./images/background20.jpeg);
-  font-size: 30px;  
+  font-size: 30px;
 }
 
 .CONCLUSION h1 {
@@ -608,7 +605,7 @@ nav img {
     ),
     url(./images/wrapping.png);
   background-position-y: bottom;
-  text-decoration: underline;  
+  text-decoration: underline;
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -627,16 +624,17 @@ nav img {
   background-position: center;
 }
 #concP2 {
-    display: flex;
-    font-size: 25px;
-    justify-content: space-around;
-    /* align-items: center; */
-    text-align: justify;
-  }
-#breakerConc{
-    background-image: linear-gradient(rgba(1, 1, 1, 1), rgba(1, 1, 1, 1)),url(./images/background20.jpeg);
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-around;
+  /* align-items: center; */
+  text-align: justify;
+}
+#breakerConc {
+  background-image: linear-gradient(rgba(1, 1, 1, 1), rgba(1, 1, 1, 1)),
+    url(./images/background20.jpeg);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
 }
 .sf2bg {
   color: ivory;
@@ -648,15 +646,15 @@ nav img {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
 }
-#endinning{
-    font-size: 75px;    
-    background-image: linear-gradient(rgba(4, 9, 29, 0.5), rgba(5, 10, 29, 0.9)),url(./images/horizon.PNG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-y: 35%;
-    padding-top: 70px;
-    padding-bottom: 70px;
-
+#endinning {
+  font-size: 75px;
+  background-image: linear-gradient(rgba(4, 9, 29, 0.5), rgba(5, 10, 29, 0.9)),
+    url(./images/horizon.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 35%;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 #replays {
@@ -678,12 +676,12 @@ nav img {
   text-align: justify;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 500px;
-  opacity:1;
+  opacity: 1;
 }
-.suppRow{
-    display: flex;
-    font-size: 20px;
-    justify-content: space-evenly;
+.suppRow {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-evenly;
 }
 
 nav .fa {
