@@ -16,7 +16,12 @@ redirectNavLogo.addEventListener("click", function(){
      }       
 })
 
-const audio = document.getElementById('audio');
+let volDefault = document.getElementById("audioMp3");
+volDefault.volume = 0.05;
+
+/* todo: make all of this work */
+
+/* const audio = document.getElementById('audio');
 const playPauseButton = document.getElementById('play-pause');
 const previousButton = document.getElementById('previous');
 const nextButton = document.getElementById('next');
@@ -72,4 +77,4 @@ nextButton.addEventListener('click', next);
 volumeSlider.addEventListener('input', updateVolume);
 
 // automatically play the next song when the current one ends
-audio.addEventListener('ended', next);
+audio.addEventListener('ended', next); */
