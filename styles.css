@@ -18,7 +18,7 @@ body {
   width: 100%;
   opacity: 1;
   background-image: linear-gradient(rgba(4, 9, 29, 0.8), rgba(5, 10, 29, 0.7)),
-    url(../images/background2.jpg);
+    url(./images/background2.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -119,7 +119,7 @@ nav img {
 
 .START {
   background-image: linear-gradient(rgba(5, 10, 29, 0.95), rgba(4, 9, 28, 0.8)),
-    url(../images/Image5.jpg);
+    url(./images/Image5.jpg);
   background-position: center;
   background-size: cover;
   opacity: 0.9;
@@ -168,7 +168,7 @@ nav img {
   padding-top: 150px;
   padding-bottom: 100px;
   background-image: linear-gradient(rgba(4, 9, 28, 0.5), rgba(5, 9, 29, 0.6)),
-    url(../images/Image10.jpeg);
+    url(./images/Image10.jpeg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -227,7 +227,7 @@ nav img {
   padding-top: 250px;
   padding-bottom: 450px;
   background-image: linear-gradient(rgba(4, 9, 28, 0.9), rgba(5, 9, 29, 0.9)),
-    url(../images/background8.jpeg);
+    url(./images/background8.jpeg);
 }
 
 .HANDLE h1 {
@@ -237,7 +237,7 @@ nav img {
   padding-bottom: 50px;
   color: aliceblue;
   font-family: "Martian Mono", monospace;
-  background-image: url(../images/background4.jpeg);
+  background-image: url(./images/background4.jpeg);
   background-size: auto;
 }
 
@@ -344,7 +344,7 @@ nav img {
   top: 350px;
   font-weight: 1000;
   color: red;
-  background-image: url(../images/background4.jpeg);
+  background-image: url(./images/background4.jpeg);
   background-size: auto;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -367,7 +367,7 @@ nav img {
   padding-top: 250px;
   padding-bottom: 50px;
   background-image: linear-gradient(rgba(4, 9, 28, 0.6), rgba(5, 9, 29, 0.7)),
-    url(../images/background11.jpeg);
+    url(./images/background11.jpeg);
 }
 
 .EXECUTION h1 {
@@ -379,7 +379,7 @@ nav img {
   bottom: 50px;
   color: rgb(216, 65, 65);
   font-family: "Martian Mono", monospace;
-  background-image: url(../images/background14.jpeg);
+  background-image: url(./images/background14.jpeg);
 }
 
 #guillotine {
@@ -487,7 +487,7 @@ nav img {
   position: relative;
   font-weight: 1000;
   color: aliceblue;
-  background-image: url(../images/background18.jpeg);
+  background-image: url(./images/background18.jpeg);
   text-decoration: underline;
 }
 
@@ -552,7 +552,7 @@ nav img {
   font-weight: 1000;
   color: aliceblue;
   background-image: linear-gradient(rgba(13, 18, 14, 0.8), rgba(9, 16, 11, 0.8)),
-    url(../images/background19.jpeg);
+    url(./images/background19.jpeg);
   text-decoration: underline;
   margin-bottom: 2%;
 }
@@ -606,7 +606,7 @@ nav img {
       rgba(13, 18, 14, 0.75),
       rgba(9, 16, 11, 0.75)
     ),
-    url(../images/wrapping.png);
+    url(./images/wrapping.png);
   background-position-y: bottom;
   text-decoration: underline;  
   padding-top: 100px;
