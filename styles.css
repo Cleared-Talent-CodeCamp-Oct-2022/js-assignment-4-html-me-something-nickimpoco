@@ -11,7 +11,16 @@ html {
 body {
   margin: 8px;
   display: block;
+
+  
 }
+/* Audio player stuff */
+#audio{
+    position:fixed;
+    top: 0;
+    right: 0;
+}
+
 
 .header {
   min-height: 100vh;
@@ -177,8 +186,7 @@ nav img {
 .INVESTMENT h1 {
   font-size: 70px;
   font-weight: 800;
-  position: relative;
-  margin-bottom: 20%;
+  position: relative;  
   color: aliceblue;
   font-family: "Martian Mono", monospace;
 }
@@ -188,11 +196,10 @@ nav img {
   font-size: 20px;
   padding-top: 20px;
 }
-/* .richRow {
+ .richRow {
   display: flex;
-  align-items:center;
   justify-content: space-evenly;
-} */
+} 
 
 .inv-row {
   margin-top: 5%;
